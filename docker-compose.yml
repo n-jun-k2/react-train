@@ -10,7 +10,7 @@ services:
       - ./app:/app
       - node_module_volume:/app/node_modules
     environment:
-      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
 
 volumes:
   node_module_volume:
